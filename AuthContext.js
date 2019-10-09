@@ -38,10 +38,10 @@ export const useIsLoggedIn = () => {
 
 export const useLogIn = () => {
   const { logUserIn } = useContext(AuthContext);
-  return;
+  return logUserIn;
 };
 
 export const useLogOut = () => {
   const { logUserOut } = useContext(AuthContext);
-  return;
+  return logUserOut;
 };

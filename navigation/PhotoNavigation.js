@@ -9,8 +9,7 @@ import UploadPhoto from "../screens/Photo/UploadPhoto";
 const PhotoTabs = createMaterialTopTabNavigator(
   {
     SelectPhoto,
-    TakePhoto,
-    UploadPhoto
+    TakePhoto
   },
   {
     tabBarPosition: "bottom"
