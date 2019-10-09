@@ -1,5 +1,5 @@
 const options = {
-  uri: "http://localhost:4000/graphql"
+  uri: "https://bolonggram-backend.herokuapp.com/"
 };
 
 export default options;
